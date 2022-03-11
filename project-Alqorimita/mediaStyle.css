@@ -1,0 +1,295 @@
+/* HEADER  */
+@media screen and (max-width: 500px) 
+{ 
+   .header .head3
+   {
+     display: none;  
+   }  
+   header   
+   {
+       height: 750px;
+       display: flex;
+       flex-direction: column;
+
+   }
+   .header1 .head2
+   {
+       display: none;
+   }
+   .alq
+   {
+       position: absolute;
+       left: 60px;
+       top : 20px ;
+   }
+   .list-icon
+   {
+       display: block;
+       position: absolute;
+       right: 60px;
+       top: 30px;
+   }
+  header .texts .text-h1 
+   {    
+       font-size: 25px;
+       margin-left: 0px;
+   }
+   header .texts .text-p
+   {
+       font-size: 18px;
+       width: fit-content ;
+       margin-left: 0px;
+       
+   }
+   header .texts .text-p2
+   {
+       font-size: 16px;
+       margin-left: 0px;
+
+   }
+   .texts
+   { 
+       width: 80%;
+       display: flex;
+       justify-content: center;
+       margin : auto;
+       margin-top: 100px;
+   }
+    .head2 
+   {    
+       display: none;      
+   } 
+   .player  
+   {
+       display: flex;
+       left: 0px;
+       width: 300px;
+       flex-direction: row-reverse;
+       align-items: center;
+       gap: 30px;
+       margin-left: 50px;
+   }
+
+   /* MAIN-1 */
+   .main1-1
+    {        
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main1-1  .main-text h1
+    {
+        padding: 0 65px;
+        
+    }
+    .main1-1 .main-btn .btn
+    {
+        display : none;
+    }
+
+    .main1-2 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .main1-2-1 , .main1-2-2
+    {  
+        padding-right: 250px;
+        margin-left: 0;
+        display: flex;
+    }
+    .p 
+    {
+        width:  340px;
+    }
+    .main1-2-h1-2 , .main1-2-h1 
+    {
+        width: 240px;
+    }
+    .btn-player
+    {
+        padding-left: 40px;
+        padding-bottom: 50px;
+    }
+    .btn-player .btn
+    {   display: block;
+    }
+    /* MAİN-2 */
+    
+
+    .main2{
+        padding: 0;
+    }
+    .main2-icon 
+    {
+        position: relative;
+        left: 75%;
+        top: 20px;
+    }
+    /* MAIN-3 */
+
+    .main3-1 
+    {
+    display: flex;
+    padding: 0;
+    padding-left: 40px;
+    }
+    .main3-2 
+    {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .main3-2 .n1
+    {
+        width: 70%;
+    }
+
+    
+/* MAIN-4 */
+
+    .main4 .system , .web
+    {
+        display: none;
+    }
+    .main4 
+    {
+        padding: 0 ;
+    }
+    .choose
+    {       
+        display: flex;
+        flex-direction: column;
+        position: relative  ;
+        top : 0 ;
+        left: 0;
+        width: 100%;
+        padding: 60px 50px;
+    }
+    .choose h1 
+    {
+        color : #30FFCD ;
+        width: 350px;
+        font-size: 48px;
+        text-transform: uppercase;
+    }
+    .slct 
+    {
+        width: 350px;
+        padding: 12px 10px;
+        border : #30FFCD solid 2px ;
+        color: #30FFCD;
+        background-image: url(/Rectangle\ 1218.jpg) ;
+        font-size: 20px;    
+        font-weight: bolder;
+    }   
+    .slct-p
+    {
+        font-size: 20px;
+        color  :#FFFFFF ;
+        position: relative;
+        /* left: 30px; */
+        top : 20px ;
+        /* width: 420px; */
+    }
+    .main4-btn
+    {
+        position: relative;
+        left: 30px;
+    }
+
+
+    /* MAIN-5 */
+ 
+     .main5-x 
+     {
+         padding: 0;
+         padding-left: 50px;
+     }
+     .main5-1
+     {
+         width: 100%;
+         padding: 0;
+         font-size: 16px;
+         padding: 30px 0;
+     }
+     .main5-2 
+     {
+         font-size: 23px;
+         padding-top: 20px;
+     }
+     .human 
+     {
+         display: none;
+     }
+ 
+     /* MAIN-6  */
+ 
+     .main6 
+     {
+         padding-left: 55px;
+         padding-bottom: 100px;
+         width: 88%;
+     }
+     .main6 .pctr   
+     {
+         margin-left: 0;
+         width: 330px;
+         height: 400px;
+         position: relative;
+         left: 40px;
+         top   : -190px ;
+         padding-left: 60px;
+     }
+     .main6 .main6-text
+    {
+         color: #30FFCD;
+        width: 80%;
+         position: absolute;
+         left: 0;
+         padding-left: 40px;
+    }
+    
+    /* FOOTER */
+ 
+     footer 
+     {
+         display: flex;
+         flex-direction: column;
+     }
+     .foots
+     {
+        display: flex;
+        flex-direction: column;
+        padding-left: 55px;
+     }
+     .foot1 , .foot2 
+     {
+         padding-top: 40px;
+     }
+     .foot3
+     {
+         padding-left: 80px;
+         padding-top: 40px;
+     }
+} 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
